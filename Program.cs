@@ -19,7 +19,7 @@ public class Program
 		
 		for(int k=0; k<input.Length; k++){
 			for(int i=0; i<spaceLength;i++){
-					Console.Write(" ");
+				Console.Write(" ");
 			}
 			for(int j = median ; j < input.Length && j<=currentLen; j++){
 				Console.Write(input[j]);
